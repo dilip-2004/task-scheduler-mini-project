@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+table{
+    width: 70%;
+    margin: auto;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    text-align: center;
+    padding: 25px 10px;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.main-box{
+    width: 60%;
+    height: 200px;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 200px;
+    border-radius: 5px;
+    left: 20%;
+    box-shadow: 0px 3px 7px rgb(224, 226, 226);
+}
+.upload-box{
+    border-radius: 5px;
+    position: absolute;
+    height: auto;
+    margin-top: 80px;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    z-index: 1;
+    background-color: rgb(250, 250, 250);
+}
+.hidden{
+    display: none;
+}
